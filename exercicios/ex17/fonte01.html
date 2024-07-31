@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+          @font-face {
+            font-family: 'Love' ;
+            src: url('fonts/lovelarry.ttf.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+             tipos de bformat()
+             - opentype (otf)
+             - truetype (ttf)
+             - embedded-opentype
+             - truetype-aat (apple advanced typografy)
+             - svg
+            */
+        }
+        body{
+        font-family: 'Love';
+            /* 
+            Medidas absolutas 
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            */
+           
+            /*Weight, width, height*/
+            /* lither normal bold bolder*/
+            
+
+        }
+        h1{
+            font: italic bolder 3em 'work Sans', sans-serif;
+            
+            /* shorthand out
+             - font-style -> font-weight -> font-size -> font-family
+             
+            font-family: 'work sans', sans-serif;
+            font-size: 3em ;
+            font-weight: bolder ;
+            font-style: italic;
+            text-decoration: underline;
+            */
+
+        }
+        h2{
+            font: bolder 2em 'wor sans', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, vel sapiente, fugit doloremque dolor culpa ipsa facilis mollitia nisi distinctio alias animi quos? Officiis eum praesentium deleniti fugiat, suscipit doloribus.
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, at a voluptatem consectetur quia aspernatur maiores? Explicabo, totam tempora quod voluptas reprehenderit possimus dicta error eos magni eveniet sit ipsam.</p>
+    <h2>Subtítulo de exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit pariatur ipsa eveniet blanditiis laborum minus officia? Quae alias velit cumque vel. Sint, minus temporibus libero delectus iste corporis id eum?</p>
+
+    
+</body>
+</html>
