@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de Tela</title>
     <style>
         body{
+         /*
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+         */
+            /* Shorhando backgroud
+              color > image > position > [size]
+              > attachment
+             */
+             background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed ;
+             background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px ;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +37,8 @@
 <body>
     <main>
         <h1>Teste de Imagens de Fundo</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis veritatis magnam delectus illo, id reiciendis iure necessitatibus placeat reprehenderit, voluptatem recusandae molestias? Assumenda ullam nobis iusto officiis, id aliquam blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perspiciatis eaque nulla rerum aperiam non, eveniet libero vel ea a nemo soluta porro dignissimos culpa voluptatum molestias asperiores exercitationem ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolores necessitatibus cupiditate blanditiis quaerat ea minus hic ipsa sapiente, qui sequi explicabo amet molestias harum praesentium expedita, voluptate quidem. Cupiditate.</p>
+
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis veritatis magnam delectus illo, id reiciendis iure necessitatibus placeat reprehenderit, voluptatem recusandae molestias? Assumenda ullam nobis iusto officiis, id aliquam blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perspiciatis eaque nulla rerum aperiam non, eveniet libero vel ea a nemo soluta porro dignissimos culpa voluptatum molestias asperiores exercitationem ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolores necessitatibus cupiditate blanditiis quaerat ea minus hic ipsa sapiente, qui sequi explicabo amet molestias harum praesentium expedita, voluptate quidem. Cupiditate.</p>
     </main>
 </body>
